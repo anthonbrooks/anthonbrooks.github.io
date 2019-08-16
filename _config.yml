@@ -1,11 +1,11 @@
 # Site settings
 author: Anthony Prescott-Brooks
-title: 
+title: Anthony's Blog
 header-img: img/home-bg.png
 email: anthonybrooks226@gmail.com
 copyright_name: Anthony Prescott-Brooks
 description: > # this means to ignore newlines until "baseurl:"
-  
+  my adventures in programming
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  anthonbrooks
