@@ -6,7 +6,7 @@ permalink:  code_that_communicates
 ---
 
 
-As of the time of writing this blog post I am now completely done with my first Ruby Project. For my project, I made a CLI program that scrapes the [BarnesAndNoble.com](http://barnesandnoble.com) website and shows the user the top twenty selling books at the moment. 
+As of the time of writing this blog post I am now completely done with my first Ruby Project. For my project, I made a CLI program that scrapes the [BarnesAndNoble.com](http://https://www.barnesandnoble.com/b/books/_/N-1fZ29Z8q8) website and shows the user the top twenty selling books at the moment. 
 
 Doing this project I learned a lot about deploying a working app and a lot about programming in Ruby. Initially I completed most of my code and had a working program in a few hours but I knew that my work was not done. My first issue was that a user could not exit the program gracefully, only using C-c. That method got old quickly because it showed an Interrupt error and I knew that I had to fix this. I tried many different ways to make an exit method in my CLI class. I tried a while loop that would stay inside of the program until a user typed 'no' when prompted to continue or not. After hours of trying to figure this out and googling, I saw a snippet of code in article that had a method, with one word at the end of the method, 'exit'. 
 
@@ -24,4 +24,4 @@ Last, but certainly not least, I used the Ruby library Nokogiri to scrape HTML d
 
 I learned a lot doing this project and I had lots of fun doing it. Before the project I already wanted to learn how to scrape the web with my code so that I could implement that into my other programs and now that I understand it, the sky is the limit! Thanks for reading and you can check out my Ruby Gem here: 
 
-[barnes_and_noble_bestsellers Gem](https://github.com/anthonbrooks/barnes_and_noble_bestsellers)
+[barnes_and_noble_bestsellers Ruby Gem](https://github.com/anthonbrooks/barnes_and_noble_bestsellers)
