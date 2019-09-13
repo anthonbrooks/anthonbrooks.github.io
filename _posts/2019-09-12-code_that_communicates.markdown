@@ -22,6 +22,12 @@ The biggest topic that I learned from doing this project as far as programming i
 
 Last, but certainly not least, I used the Ruby library Nokogiri to scrape HTML documents on the web using CSS selectors to retrieve the information that I wanted. I'm glad that I have some experience with HTML and CSS which made this part of the project a breeze. I read a little about Nokogiri and I was able to get the exact text that I wanted from the Barnes and Noble website.
 
-I learned a lot doing this project and I had lots of fun doing it. Before the project I already wanted to learn how to scrape the web with my code so that I could implement that into my other programs and now that I understand it. The sky is the limit! Thanks for reading and you can check out my Ruby Gem here: 
+I learned a lot doing this project and I had lots of fun doing it. Before the project I already wanted to learn how to scrape the web with my code so that I could implement that into my other programs and now that I understand it. The sky is the limit! 
+
+Thanks for reading and you can check out my Ruby Gem here: 
 
 [barnes_and_noble_bestsellers Ruby Gem](https://github.com/anthonbrooks/barnes_and_noble_bestsellers)
+
+You can also check out a video demo here: 
+
+[Barnes and Noble Bestsellers Ruby Gem Demo](https://www.youtube.com/watch?v=3dAn3L4Sv_s)
