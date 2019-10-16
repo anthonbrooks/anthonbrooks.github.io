@@ -32,10 +32,10 @@ The controller is where the magic of CRUD comes to life. In a view file you coul
 
 To have an effective controller you need methods for each action: 
 
-Create - HTTP ```post``` request
-Read - HTTP ```get``` request
-Update - HTTP ```patch``` request
-Delete - HTTP ```delete``` request
+Create - HTTP ```post``` request 
+Read - HTTP ```get``` request 
+Update - HTTP ```patch``` request 
+Delete - HTTP ```delete``` request 
 
 In a Rack app you must include the line ```use Rack::MethodOveride``` in your config.ru file to import the ```MethodOveride``` class from Rack. This class allows the ```patch``` and ```delete``` methods to function correctly. 
 
