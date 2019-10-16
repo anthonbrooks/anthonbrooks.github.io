@@ -22,11 +22,22 @@ Bcrypt secures passwords as a hash in the database and gives us the macro ```has
 
 ### View 
 
-The views of a Sinatra app are html or erb documents that are displayed in a client's browser. Views utilize Models and Controllers. The view files display the data and content that you want users of your app to see. 
+The views of a Sinatra app are html or erb documents that are displayed in a client's browser. Views utilize Models and Controllers. The view files display the data and content that you want users of your app to see, like a blog post or a form to write a new post.  
 
 ### Controller 
 
 The controller ties everything together and defines how your app will handle HTTP requests. In controller files you define what a ```get``` request, for example, to ``` '/' ``` will render for the client. Also, you can query the database to show specific data on each page using ```params``` and methods provided by Active Record. 
+
+The controller is where the magic of CRUD comes to life. In a view file you could have a form to write a blog post or edit a blog post but you need relevent controller actions to handle saving that input to the database and show that information for the writer and others to view. 
+
+To have an effective controller you need methods for each action: 
+
+Create - HTTP ```post``` request
+Read - HTTP ```get``` request
+Update - HTTP ```patch``` request
+Delete - HTTP ```delete``` request
+
+In a Rack app you must include the line ```use Rack::MethodOveride``` in your config.ru file to import the ```MethodOveride``` class from Rack. This class allows the ```patch``` and ```delete``` methods to function correctly. 
 
 ## REST
 
