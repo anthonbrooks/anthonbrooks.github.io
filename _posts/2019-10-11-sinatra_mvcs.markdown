@@ -64,3 +64,7 @@ Finally if your user wants to remove post from the world-wide web for whatever r
 My initial idea was to create an app where people can write reviews, comment on reviews, and also make friends and movie dates with those friends. However, I have a lot to learn before I can set up relationships between users and implement those functionalities. I learned a lot doing this project and I enjoyed it. If you want to check out my code go to: 
 
 [Poppy](http://github.com/anthonbrooks/poppy)
+
+Video Demo: 
+
+[Poppy Demo](https://youtu.be/opsIc-2RAMk)
